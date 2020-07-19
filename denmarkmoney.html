@@ -5,6 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logofish.png" />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia </title>
+    <style>
+        .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.list li {
+  flex: 1;
+}
+.list li a {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 1rem;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.list li a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+@media (hover: hover) {
+  .list li a span {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .list:hover span {
+    transform: translateY(0);
+  }
+  .list li:nth-child(1) span {
+    transition-delay: 0.0s;
+  }
+  .list li:nth-child(2) span {
+    transition-delay: 0.05s;
+  }
+  .list li:nth-child(3) span {
+    transition-delay: 0.1s;
+  }
+  .list li:nth-child(4) span {
+    transition-delay: 0.15s;
+  }
+  .list li:nth-child(5) span {
+    transition-delay: 0.2s;
+  }
+  .list li:nth-child(6) span {
+    transition-delay: 0.25s;
+  }
+}
+
+
+
+
+
+
+
+.list li:nth-child(1) {
+  background: #edc4b3;
+}
+.list li:nth-child(2) {
+  background: #e6b8a2;
+}
+.list li:nth-child(3) {
+  background: #dd8d58;
+}
+.list li:nth-child(4) {
+  background: #6bd3ab;
+}
+.list li:nth-child(5) {
+  background: #59b2e6;
+}
+.list li:nth-child(6)  {
+  background: #ffffff;
+}
+
+
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li><a href="main.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الصفحة الرئيسية</span></a></li>
+        <li><a href="list1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الأوروبية</span></a></li>
+        <li><a href="list2.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الآسيوية</span></a></li>
+        <li><a href="signin1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>تسجيل الدخول</span></a></li>
+        <li><a href="about.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> من نحن ؟</span></a></li>
+        <li><a href="contact.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> تواصل معنا</span></a></li>
+      </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
     <title>AllAroundEurasia
     <style>
         .list {
@@ -122,29 +225,30 @@ transform: scale(1.4);
 }  
 body {
   height: 100vh;
-  background: radial-gradient(circle at 94.02% 88.03%, #cb53cf, transparent 100%),radial-gradient(circle at 25.99% 27.79%, #66999B, transparent 100%),radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+  background-image: linear-gradient( 135deg, #8401ffc9 10%, #c94600c4 100%);
 }
 
 body{height: 900px;}
 header {
-	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
-	text-align: center;
-	width: 100%;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
+  background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+  background-image: linear-gradient( 135deg, #8401ffc9 10%, #c94600c4 100%);
 }
 header .overlay{
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #d0ff01c9 10%, #fd5e086b 100%);
-	
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #8401ffc9 10%, #c94600c4 100%);
+  
 }
 h1 {
 text-align: center;
@@ -163,16 +267,18 @@ color:black;
 
 
 button {
-	border: none;
-	outline: none;
-	padding: 10px 20px;
-	border-radius: 50px;
-	color: rgb(15, 14, 14);
-	background: #fff;
-	margin-bottom: 20px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: rgb(15, 14, 14);
+  background: #fff;
+  margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 3cm;
-	box-shadow: 0 3px 20px 0 #0000003b;
+  box-shadow: 0 3px 20px 0 #0000003b;
+  width: 8cm;
+  
 
 }
 
@@ -189,8 +295,21 @@ body{
 }
 div{
     text-align: center;
-    background: radial-gradient(circle at 94.02% 88.03%, #dba81a, transparent 100%),radial-gradient(circle at 25.99% 27.79%, #66999B, transparent 100%),radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+
+
     
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#9875c7;
+  overflow-x: hidden;
+  border: 0.2cm solid rgb(133, 230, 7); 
+  
 }
 
     
@@ -203,54 +322,63 @@ div{
         <div class="overlay">
             <button class="grow">
 
-                <a href="denmarkd.html"> <h2>الدنمارك 
-                </h2></a>
+                <a href="denmarkd.html"> <h2>عملة الدينمارك 
+                </h2>
+             <h1 style="font-size: 0.2cm;margin-left: 2cm;">
+              كرونة دنماركية (بالدانماركيّة: dansk krone) العملة الرسميّة لمملكة الدانمارك، رمزها (kr أو DKK) ويصدرها المصرف الوطني الدانماركي، الكرونة الدانماركية الواحدة مقسمّة إلى مئة إيري (بالدانماركيّة: øre) وسعر صرفها كل دولار أمريكي = 6,0167 كرونة دنماركية، أصدرت هذه العملة أول مرّة في 13 آذار 1979 .
+             </h1>
+             
+              </a>
    </button>
    <button class="grow">
 
    
     
-        <a href="denmarkmoney.html"> <h2>تحويل العملات
+        <a href="denmarkmoney.html"> <h2> عملة الكويت 
         </h2></a>
-                
+        <h1 style="font-size: 0.2cm;margin-left: 2cm;">
+          الدينار الكويتي هو العملة الرسمية لدولة الكويت يصدرها بنك الكويت المركزي حالياً، حيث أصدر مجلس النقد الكويتي أول دينار كويتي في الأسواق عام 1960 م خلفاَ للروبية الهندية التي كانت مستخدمة قبله، ثم أصدر بنك الكويت المركزي بعد ذلك ستة إصدارات أخر للعملة آخرها عام 2014 م والتي تم الإعلان عنها في 19 مايو 2014 ، وينقسم الدينار الكويتي إلى 1000 فلس ويعتبر صاحب أعلى سعر صرف في العالم الآن، وتقديراَ ليونيو 2008 يساوي سعر صرف الدينار الكويتي 3.78 دولارا أمريكيا و 2.4 يورو، وقد تم إصدار أول فئة من فئة العشرين دينار في 9 فبراير عام 1986 م .
+         </h1>  
        </button>
        <button class="grow">
-<a href="https://www.rightmove.co.uk/overseas-property/in-Denmark.html"> <h2>عقارات
+<a href="https://www.rightmove.co.uk/overseas-property/in-Denmark.html"> <h2>عملة فرنسا
 </h2></a>
-        
+<h1 style="font-size: 0.2cm;margin-left: 2cm;">
+    اليورو أو الأورو أو الأُيرو (الرمز الشكلي:€، رمز الإيزو:EUR) هي العملة الموحدة لدول الاتحاد الأوروبي، الذي يعد بعد الدولار الأمريكي ثاني أهم عملة على مستوى النظام النقدي الدولي. يتم التحكم به من قبل البنك المركزي الأوروبي في مقره بفرانكفورت بألمانيا. اليوم يعد اليورو العملة الرسمية المتداولة في 19 دولة من دول الاتحاد الأوروبي الثماني والعشرون. كما أنه العملة الرسمية في ست دول أخرى هي ليست أعضاء في الاتحاد الأوروبي.
+  </h1>    
         
            </button>
         
         
             </div>
-    </header>
+    
    
       
       
    </div>
     <div class="container">
    <h2>تحويل العملات</h2>
-   <p class="lead">Convert the currency</p>
+   <p style="color: #ffffff;" class="lead"> حول العملة </p>
    <form class="form-inline">
      <div class="form-group mb-2">
         <input type="number" class="form-control" id="amount"/>
      </div>
      <div class="form-group mx-sm-3 mb-2">
         <select class="form-control" id="currency-1" required>
-          <option>PLN</option>
+          <option>DKK</option>
           <option>EUR</option>
-          <option>USD</option>
+          <option>KD</option>
         </select>
       </div>
       <div class="form-group mx-sm-3 mb-2">
-        <label>convert to</label>
+        <label style="color: #ffffff;">تحويل إلى</label>
         <select class="form-control" id="currency-2" required>
           <option>EUR</option>
-          <option>USD</option>
-          <option>PLN</option>
+          <option>DKK</option>
+          <option>KD</option>
         </select>
       </div>  
-      <button class="btn calculate-btn btn-primary mb-2">Show me the result!</button>
+      <button class="btn calculate-btn btn-primary mb-2"> !!النتيجة</button>
       <br>
       <br>
       <br>
@@ -268,25 +396,29 @@ div{
     </div>
   </div> 
 </div>
-
+<div class="sidenav" style="height: 40%;align-items: center; align-content: center;margin-top: 6cm;">
+  <a href="kuwait.html"><img class="grow" style="width: 14ex; margin-top: 2ex; margin-left: 5ex;" src="flag kuwait.png" alt=""></a>  
+  <a href="denmark.html"><img class="grow" style="width: 14ex; margin-top: 2ex;margin-left: 5ex;" src="denmark flag.jpg" alt=""></a>  
+  <a href="france.html"><img class="grow" style="width: 14ex; margin-top: 2ex;margin-left: 5ex;" src="france flag.png" alt=""></a>
+</div>
 
 <script>
-    var crrncy = {'EUR': {'PLN': 4.15, 'USD': 0.83}, 'USD': {'PLN': 3.45, 'EUR': 1.2}}
-var btn = document.querySelector('.calculate-btn');
-var baseCurrencyInput = document.getElementById('currency-1');
-var secondCurrencyInput = document.getElementById('currency-2');
-var amountInput = document.getElementById('amount');
-var toShowAmount = document.querySelector('.given-amount');
-var toShowBase = document.querySelector('.base-currency');
-var toShowSecond = document.querySelector('.second-currency');
-var toShowResult = document.querySelector('.final-result');
+    let crrncy = {'EUR': {'DKK': 7.45, 'KD': 0.35}, 'DKK': {'KD': 0.047, 'EUR': 0.13}}
+let btn = document.querySelector('.calculate-btn');
+let baseCurrencyInput = document.getElementById('currency-1');
+let secondCurrencyInput = document.getElementById('currency-2');
+let amountInput = document.getElementById('amount');
+let toShowAmount = document.querySelector('.given-amount');
+let toShowBase = document.querySelector('.base-currency');
+let toShowSecond = document.querySelector('.second-currency');
+let toShowResult = document.querySelector('.final-result');
 
 function convertCurrency(event) {
   event.preventDefault();
-  var amount = amountInput.value;
-  var from = baseCurrencyInput.value;
-  var to = secondCurrencyInput.value;
-  var result = 0;
+  let amount = amountInput.value;
+  let from = baseCurrencyInput.value;
+  let to = secondCurrencyInput.value;
+  let result = 0;
   
   try{
     if (from == to){
