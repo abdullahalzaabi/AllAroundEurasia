@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia </title>
+    <style>
+        .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.list li {
+  flex: 1;
+}
+.list li a {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 1rem;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.list li a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+@media (hover: hover) {
+  .list li a span {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .list:hover span {
+    transform: translateY(0);
+  }
+  .list li:nth-child(1) span {
+    transition-delay: 0.0s;
+  }
+  .list li:nth-child(2) span {
+    transition-delay: 0.05s;
+  }
+  .list li:nth-child(3) span {
+    transition-delay: 0.1s;
+  }
+  .list li:nth-child(4) span {
+    transition-delay: 0.15s;
+  }
+  .list li:nth-child(5) span {
+    transition-delay: 0.2s;
+  }
+  .list li:nth-child(6) span {
+    transition-delay: 0.25s;
+  }
+}
+
+
+
+
+
+
+
+.list li:nth-child(1) {
+  background: #edc4b3;
+}
+.list li:nth-child(2) {
+  background: #e6b8a2;
+}
+.list li:nth-child(3) {
+  background: #dd8d58;
+}
+.list li:nth-child(4) {
+  background: #6bd3ab;
+}
+.list li:nth-child(5) {
+  background: #59b2e6;
+}
+.list li:nth-child(6)  {
+  background: #ffffff;
+}
+
+
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li><a href="main.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الصفحة الرئيسية</span></a></li>
+        <li><a href="list1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الأوروبية</span></a></li>
+        <li><a href="list2.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الآسيوية</span></a></li>
+        <li><a href="signin1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>تسجيل الدخول</span></a></li>
+        <li><a href="about.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> من نحن ؟</span></a></li>
+        <li><a href="contact.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> تواصل معنا</span></a></li>
+      </ul>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>World Map Example</title>
+    <script src="mapdata.js"></script>
+    <script src="worldmap.js"></script>
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Cairo:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+ 
+
+  
+
+
+body {
+  height: 100vh;
+background-image: linear-gradient( 135deg, #ff640b7a 10%, #f79c249c 100%);
+}
+
+h1 {
+ font-family: 'Cairo', sans-serif;
+text-align: center;
+}
+h5{
+  text-align: center;
+font-family: 'Cairo', sans-serif;
+font-size: 0.3cm;
+
+}
+h6{
+  text-align: center;
+font-family: 'Cairo', sans-serif;
+font-size: 0.4cm;
+
+
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.4); 
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 12px;}
+  .sidenav a {font-size: 16px;}
+}
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #ff864069 10%, #d6a4636b 100%);
+	
+}
+h3{
+  font-family: 'Amiri', serif;
+  font-size: 1cm;
+}
+.container-area{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.4); 
+} 
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: rgb(15, 14, 14);
+	background: #fff;
+	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 3cm;
+	box-shadow: 0 3px 20px 0 #0000003b;
+text-align: center;
+}
+ul{
+  direction: rtl;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="overlay">
+       
+          <a href="salmon.html"><img class="grow" style="width: 20ex;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt=""></a>
+      
+
+
+    
+          </div>
+          <div style=" border: 2ex solid rgb(233, 233, 233); background-color: rgb(53, 187, 197);" id="map"></div>
+  </header>
+  <h1 style="background-color: rgba(77, 186, 236, 0.568);">
+    مقدمة عن نظام الهجرة
+  </h1>
+  <div class="container-area">
+    <button style="width: 8cm; text-align: center;" class="grow">
+     <img style="text-align: center;width: 5ex;" src="3.png" alt="" srcset="">
+      <h5>
+        الهجرة لُغةً لفظٌ مشتقٌ من الكلمة الثُلاثيّة (هَجَرَ)، ومعناها الرّحيلُ عن المكان، أو التَخليّ عن شيءٍ ما، وأيضاً تُعرفُ الهجرة بأنّها انتقالُ الأفراد من مكانٍ إلى الآخر بغرضِ الاستقرار في المكان الجديد.[١] أمّا اصطلاحاً تُعرفُ الهجرة بأنّها الانتقالُ مِنَ البلد الأمّ للاستقرار في بلدٍ آخر، وهي حركة أفراد التي يتمّ فيها الانتقالُ بشكلٍ فرديّ أو جماعيّ من موطنهم الأصليّ إلى وطن جديد، وعادةً ما توجدُ ظروفٌ عديدةٌ تُؤدّي إلى الهجرة، مثل انتشار الحروب الأهليّة أو الخارجيّة في الدّول، أو سوء الأوضاع الاقتصاديّة والتي تُعتبرُ من المُحفّزات للهجرةِ. وتحرصُ دول المَهجر على تطبيقِ مجموعةٍ من الآليات القانونيّة والتشريعيّة، والتي تَضمن حماية واحترام كامل حقوق المُهاجرين. ووفقاً للتّعداد العامّ للهجرة عام 2013م وصلَ عدد المُهاجرين من دولهم الأصليّة إلى 247 مليون نسمة.[
+
+      </h5>
+  
+  
+  
+    <button style="width: 8cm; text-align: center;" class="grow">
+      <img style="text-align: center;width: 5ex;" src="2.png" alt="" srcset="">
+      <h5>
+        يغادرُ العديدُ من النّاس سنويّاً من بلادهم والأراضي التي يعيشون عليها إلى بلادٍ أُخرى، وعادةً ما تختلفُ بالثّقافةِ والعادات والتّقاليد الاجتماعيّة عن بلادهم، فبُجبرون على التّأقلمِ حتى يتمكنوا من العيش في المجتمع الجديد الذي وصلوا له، وخصوصاً في حال كانت إقامتهم فيه دائمة بعد مُشاركتهم في رحلةٍ طويلةٍ للسّفر من دولتهم إلى الدّولة الجديدة التي سيعيشون على أرضها، ويطلقُ على هذه الرّحلة التي تُؤدّي إلى استقرارِ الأفراد في دولةٍ ما بشكلٍ دائم مُسمّى الهجرة.
+
+      
+  <br>
+  <br>
+  <br>
+  <br>
+  .
+      </h5>
+    </button>
+        
+  
+    <button style="width: 8cm; text-align: center;" class="grow">
+      
+      <img style="text-align: center;width: 5ex;" src="1.png" alt="" srcset="">
+    
+        <ul>
+          
+<li>
+<H5>
+  يلجأ الإنسان إلى الهجرة خارج بلاده من أجل البحث عن عمل مناسب.
+  </H5>
+</li>
+<li>
+  <H5>
+  تحدث الهجرة نتيجة تعرض البلاد إلى الأزمات الاقتصادية والبطالة.
+</H5>
+</li>
+<li>
+  <H5>
+  حدوث الحروب والكوارث مثل الزلازل والمجاعات والصراعات في البلاد تتسبب فى الهجرة سواء هجرة شرعية أو غير شرعية.
+  </H5>
+</li>
+<li>
+  <H5>
+  عدم تقدير الكفاءات ولهذا يبحث الأشخاص عن بلاد أخرى تقدر مهاراتهم وكفاءاتهم المختلفة.
+  </H5>
+</li>
+
+</ul>
+
+             
+
+        
+      
+    
+        
+  <br>
+  <br>
+  <br>
+
+      </h5>
+    </button>
+     </div>   
+   
+    <!-- break///////////////////////////////////////////////////////////////////////////////////// -->
+    <h1 style="background-color: rgba(77, 186, 236, 0.568);margin-top: 15mm;">
+
+  نتيجة الهجرة
+</h1>
+
+    <div class="container-area">
+      <button style="width: 13cm; text-align: center;" class="grow">
+  <h3>
+    نتائج سياسية
+  </h3>
+        <h6>
+          هي مجموعةٌ من النّتائج التي تُؤثّر على الدّول المُستقبِلة للمُهاجرين بشكلٍ مُباشر؛ إذ تساهمُ في التّغيير من الواقع السياسيّ العام، وتفرضُ ضمّ المهاجرين إلى المجتمع عن طريق منحهم العديد من الامتيازات الخاصّة بالمواطنين العاديين ممّا يُؤدّي إلى التّأثيرِ على الفكر السياسيّ السّائد في الدّول، وجعلها أكثر قدرةً على تقبُّلِ دمج المُهاجرين ضِمن سُكّانها.
+
+      
+        </h6>
+    
+    
+    
+      <button style="width: 13cm; text-align: center;" class="grow">
+    <h3>
+      نتائج اقتصادية
+    </h3>
+        <h6 style="font-size: 0.35cm;">
+          هي من أكثر النّتائج تأثيراً على الدّول التي تستضيفُ المُهاجرين؛ إذ يتأثّرُ الاقتصادُ بشكلٍ ملحوظٍ مع زيادةِ أعداد المُهاجرين، والتي تظهرُ نتائجها على ارتفاع نسبة الطّلب على الموادّ الأساسيّة، والذي يُؤدّي في النّهاية إلى زيادةِ حاجة الدّول إلى توفير دعمٍ اقتصاديّ، عن طريق الاعتمادِ على المُساعدات الخارجيّة من الدّول الأُخرى، والتي تُساهمُ في دعمِ اقتصاد الدّول المُستضَيفة للمُهاجرين، من أجل تحمُّل نفقات استقبالهم، وخصوصاً إذا كان السُكّان من ذوي الدّخل المحدود في تلك الدّول فسوف يتأثّرون تأثيراً سلبيّاً بالتغيُّرات الاقتصاديّة التي ترافقُ الهجرة.
+
+        </h6>
+      
+      </button>
+          
+  
+       </div>   
+       <!-- break/////////////////////////////////////////////////////////////////////////// -->
+       <div class="container-area">
+        <button style="width: 27cm; text-align: center;margin-top: 3cm;" class="grow">
+    <h3>
+      الخلاصة 
+    </h3>
+          <h6>
+            يسعى الأفراد عموماً في البحث عن حياةٍ أفضل، لذلك يختارُ مُعظمهم الهجرة إلى دولٍ وأماكنٍ جديدة تُساعدهم على تحسين مُستوى حياتهم المعيشيّ، أو للهروب من الاضطرابات السياسيّة والحروب، ولكن قد تُشكّلُ الهجرة مجموعةً من الآثار على المهاجرين والدّول التي يتوجّهون لها، فتُوثّرُ الهجرةُ على بعضِ الأفراد من خلال صعوبة تأقلُمِهم مع طبيعةِ الحياة في البلد الجديد، وخصوصاً مع ظهور الاختلافات الثقافيّة والاجتماعيّة، وأيضاً لا يجد الكثير من المهاجرين سوى الأعمال الصّعبة للعمل بها، والتي تستغرقُ ساعات عملٍ طويلة، وأجورٍ مُنخفضة، وظروف عمل صعبة. تؤثرُ الهجرة على الدّول ذات الكثافة السُكّانية المُرتفعة، ممّا يُؤدّي إلى زيادةِ مُعدّلات البطالة والفقر، وظهورُ العديد من النّتائج السياسيّة والاقتصاديّة التي تُؤثّرُ سلباً على مُعدّلاتِ الدّخل العام في الدّولة، لكن يُعتبرُ هذا التّأثير مُتبايناً ويعتمدُ على قياس الأوضاع الاقتصاديّة والسياسيّة بين البلدان؛ فالدّول التي تتميّزُ باستقرارٍ اقتصاديّ وسياسيّ هي الأفضلُ لاستقبال المُهاجرين. تُقسمُ الهجرةُ إلى مجموعةٍ من الأنواع، ولكلّ نوعٍ منها تأثيرٌ مختلفٌ على المُهاجرين؛ إذ تعتبرُ الهجرة الداخليّة من أقلِّ أنواع الهجرة تأثيراً مُقارنةً بالهجرةِ الخارجيّة التي تحتاجُ إلى نفقات ماليّة مُرتفعة، وفي حال عدم التمكّن من تأمين المبلغ الماليّ المُناسب للهجرة يتمُّ اللّجوء إلى الهجرة السريّة التي تكونُ غالباً بطُرقٍ غير شرعيّة، وتعود بالكثير من النّتائج السلبيّة على المهاجرين.
+
+          </h6>
+      
+    
+            
+    
+         </div>   
+
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.instagram.com/ad_alzaabii/"><img style="width: 1cm;" src="ERHHfn-png-logo-instagram-black.png"></a>
+			
+				<a href="https://twitter.com/AbdullahDHZ"><img style="width: 0.7cm;" src="twitter_circle_black-512.png"></a>
+			
+		
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a  href="salmon.html">الشعار</a>
+
+					<a href="list1.html">أوروبا</a>
+
+					<a href="list2.html">آسيا</a>
+
+					<a href="contact.html">تقديم شكوى  </a>
+
+					<a href="about.html">أسئلة واجاباتها</a>
+
+					<a href="contact.html">تواصلوا معنا</a>
+				</p>
+
+				<p>AllAroundEurasia &copy; 2020</p>
+			</div>
+
+		</footer>
+ <script>
+
+
+ </script>
+</body>
+</html>
+
+
+  

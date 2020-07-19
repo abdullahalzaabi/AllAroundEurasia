@@ -1,0 +1,1024 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia
+    </title>
+    <style>
+      .grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.4); 
+}  
+
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#9875c7;
+  overflow-x: hidden;
+  box-shadow: 12cm;
+  
+
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  margin-left: 4cm;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(216, 214, 214, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ 
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+ 
+}
+
+.card-2 {
+  box-shadow: 0 13px 40px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  animation: ease-in;
+}
+
+.card-2:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+ 
+}
+.card-3 {
+  box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  animation: ease-in;
+}
+.card-3:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;}
+.card-4 {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+}
+.card-4:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in; }
+.card-5 {
+  box-shadow: 0 19px 40px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  animation: ease-in;
+}
+.card-5:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+}
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9652a3c9 10%, #ff4800dc 100%);
+	
+}
+h1 {
+text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(15, 14, 14);
+float: right;
+font-size: large;
+margin-left: 5cm;
+margin-right: 1cm;
+}
+h2 {
+
+font-family: 'Cairo', sans-serif;
+color:black;
+text-align: center;
+}
+
+h3
+{
+    font-family: 'Cairo', sans-serif;
+color:rgb(33, 38, 49);
+text-align: center;  
+margin-top: 1cm;
+margin-left: 5cm;
+font-size: 1.6cm;
+display: block;
+
+}
+h4 {
+text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(15, 14, 14);
+float: right;
+font-size: large;
+margin-left: 15cm;
+background-color:rgb(197, 70, 70);
+margin-right: 13cm;
+margin-top: 1.3cm;
+border: 0.2cm solid black; 
+}
+
+
+
+
+
+a {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+a:hover {
+  background-position: 0 100%;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 1vw auto;
+  position: relative;
+  text-align: center;
+  width: 94vw;
+}
+
+.product {
+  flex: auto;
+  font-size: 1.5rem;
+  margin: 0 1vw calc(1vw + 50px) 1vw;
+  min-width: calc(33% - 2vw);
+  position: relative;
+}
+
+.product:before {
+  content: "";
+  float: left;
+  padding-top: 100%;
+}
+
+.content {
+  background: white;
+  border-radius: 30%;
+  height: 84%;
+  margin: 8%;
+  position: absolute;
+  width: 84%;
+  vertical-align: middle;
+  z-index: 5000;
+}
+
+.product:hover .effect-1,
+.product:hover .effect-2 {
+  display: block;
+}
+
+.effect-1,
+.effect-2 {
+  border-radius: 30%;
+  display: none;
+  mix-blend-mode: multiply;
+  height: 84%;
+  opacity: 1;
+  position: absolute;
+  width: 84%;
+  z-index: 3000;
+}
+
+.effect-1 {
+  animation: rotate 1.8s linear infinite;
+  background: cyan;
+}
+
+.effect-2 {
+  animation: rotate 1.2s linear reverse infinite;
+  background: #e7a9ff;
+}
+
+@keyframes rotate {
+  0% {
+    top: 0;
+    left: 8%;
+  }
+  25% {
+    top: 8%;
+    left: 0%;
+  }
+  50% {
+    top: 16%;
+    left: 8%;
+  }
+  75% {
+    top: 8%;
+    left: 16%;
+  }
+  100% {
+    top: 0;
+    left: 8%;
+  }
+}
+
+.title {
+  position: relative;
+  top: calc(100% + 16px);
+  width: 0em;
+}
+
+.title span {
+  display: block;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  margin-top: 8px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  display: block;
+}
+
+.exercise {
+  background-image: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  border-radius: 5px;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
+
+.sleep {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 50%;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
+
+.meditation {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+  border-radius: 5px;
+  height: 40%;
+  margin: 30%;
+  transform: rotate(45deg);
+  width: 40%;
+}
+
+.twitter {
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+  border-radius: 14px;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 28px;
+  padding: 0 12px;
+  position: fixed;
+  right: 20px;
+  z-index: 5000;
+}
+h5{
+    text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(102, 0, 0);
+float: right;
+font-size: 5mm;
+margin-left: 5cm;
+
+}
+/* 
+    ================================
+        Best Viewed In Full Page
+    ================================
+*/
+
+/* Hover over a card to flip, can tab too. */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* default */
+
+
+/* body */
+body {
+  min-height: 100vh;
+ background-color: darkorchid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .flip-card-container */
+.flip-card-container {
+  --hue: 150;
+  --primary: hsl(var(--hue), 50%, 50%);
+  --white-1: hsl(0, 0%, 90%);
+  --white-2: hsl(0, 0%, 80%);
+  --dark: hsl(var(--hue), 25%, 10%);
+  --grey: hsl(0, 0%, 50%);
+
+  width: 310px;
+  height: 500px;
+  margin: 40px;
+
+  perspective: 1000px;
+}
+
+/* .flip-card */
+.flip-card {
+  width: inherit;
+  height: inherit;
+
+  position: relative;
+  transform-style: preserve-3d;
+  transition: .6s .1s;
+}
+
+/* hover and focus-within states */
+.flip-card-container:hover .flip-card,
+.flip-card-container:focus-within .flip-card {
+  transform: rotateY(180deg);
+}
+
+/* .card-... */
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+
+  background: var(--dark);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+  backface-visibility: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .card-front */
+.card-front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+/* .card-back */
+.card-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* figure */
+figure {
+  z-index: -1;
+}
+
+/* figure, .img-bg */
+figure,
+.img-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+/* img */
+img {
+  
+  border-radius: 24px;
+}
+
+/* figcaption */
+figcaption {
+  display: block;
+
+  width: auto;
+  margin-top: 12%;
+  padding: 8px 22px;
+
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  text-align: right;
+
+  position: absolute;
+  top: 0;
+  right: 12px;
+
+  color: var(--white-1);
+  background: hsla(var(--hue), 25%, 10%, .5);
+}
+
+/* .img-bg */
+.img-bg {
+  background: hsla(var(--hue), 25%, 10%, .5);
+}
+
+.card-front .img-bg {
+  clip-path: polygon(0 20%, 100% 40%, 100% 100%, 0 100%);
+}
+
+.card-front .img-bg::before {
+  content: "";
+
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(18deg);
+
+  width: 100%;
+  height: 6px;
+  border: 1px solid var(--primary);
+  border-left-color: transparent;
+  border-right-color: transparent;
+
+  transition: .1s;
+}
+
+.card-back .img-bg {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
+}
+
+/* hover state */
+.flip-card-container:hover .card-front .img-bg::before {
+  width: 6px;
+  border-left-color: var(--primary);
+  border-right-color: var(--primary);
+}
+
+/* ul */
+ul {
+  padding-top: 50%;
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+
+  list-style: none;
+  color: var(--white-1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* li */
+li {
+  width: 100%;
+  margin-top: 12px;
+  padding-bottom: 12px;
+
+  font-size: 14px;
+  text-align: center;
+
+  position: relative;
+}
+
+li:nth-child(2n) {
+  color: var(--white-2);
+}
+
+li:not(:last-child)::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background: currentColor;
+  opacity: .2;
+}
+
+/* button */
+button {
+  font-family: inherit;
+  font-weight: bold;
+  color: var(--white-1);
+
+  letter-spacing: 2px;
+
+  padding: 9px 20px;
+  border: 1px solid var(--grey);
+  border-radius: 1000px;
+  background: transparent;
+  transition: .3s;
+
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  color: var(--primary);
+  background: hsla(var(--hue), 25%, 10%, .2);
+  border-color: currentColor;
+}
+
+button:active {
+  transform: translate(2px);
+}
+
+/* .design-container */
+.design-container {
+  --tr: 90;
+  --op: .5;
+
+  width: 100%;
+  height: 100%;
+
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  pointer-events: none;
+}
+
+/* .design */
+.design {
+  display: block;
+
+  background: var(--grey);
+  position: absolute;
+
+  opacity: var(--op);
+  transition: .3s;
+}
+
+.design--1,
+.design--2,
+.design--3,
+.design--4 {
+  width: 1px;
+  height: 100%;
+}
+
+.design--1,
+.design--2 {
+  top: 0;
+  transform: translateY(calc((var(--tr) - (var(--tr) * 2)) * 1%))
+}
+
+.design--1 {
+  left: 20%;
+}
+
+.design--2 {
+  left: 80%;
+}
+
+.design--3,
+.design--4 {
+  bottom: 0;
+  transform: translateY(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%))
+}
+
+.design--3 {
+  left: 24%;
+}
+
+.design--4 {
+  left: 76%;
+}
+
+.design--5,
+.design--6,
+.design--7,
+.design--8 {
+  width: 100%;
+  height: 1px;
+}
+
+.design--5,
+.design--6 {
+  left: 0;
+  transform: translateX(calc((var(--tr) - (var(--tr) * 2)) * 1%));
+}
+
+.design--5 {
+  top: 41%;
+}
+
+.design--6 {
+  top: 59%;
+}
+
+.design--7,
+.design--8 {
+  right: 0;
+  transform: translateX(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%))
+}
+
+.design--7 {
+  top: 44%;
+}
+
+.design--8 {
+  top: 56%;
+}
+
+/* states */
+button:hover+.design-container,
+button:active+.design-container,
+button:focus+.design-container {
+  --tr: 20;
+  --op: .7;
+}
+
+.abs-site-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: hsla(0, 0%, 100%, .6);
+  font-size: 16px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#c243a6f6;
+  overflow-x: hidden;
+  border: 0.2cm solid rgb(7, 230, 144); 
+  box-shadow: 5px 5px rgb(88, 88, 235), 10px 10px rgb(125, 178, 248), 15px 15px rgb(214, 144, 39);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="overlay">
+          <h3 style="color: cornsilk;">
+              السياحة في فرنسا
+          </h3>
+
+</h2></a>
+
+
+        
+        
+<div class="sidenav" style="height: 40%;align-items: center; align-content: center;margin-top: 6cm;">
+  <a href="france.html"><img class="grow" style="width: 6ex; margin-top: 2ex; margin-left: 7ex;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt=""></a>  
+  <a href="list1.html"><img class="grow" style="width: 6ex; margin-top: 2ex;margin-left: 7ex;" src="IMG_0575_Picsart.png" alt=""></a>  
+  <a href="list2.html"><img class="grow" style="width: 6ex; margin-top: 2ex;margin-left: 7ex;" src="IMG_0574_Picsart.png" alt=""></a>
+</div>  
+            </div>
+    </header>
+    
+   </div>
+   
+  <div class="footer">
+  </div>
+  
+ 
+  <h1>
+    من منّا لا يعشق باريس مدينة النور أو مدينة الحب كما يحلو للبعض تسميتها العاصمة الفرنسية واجمل وجهات السياحة في فرنسا
+
+    تعتبر باريس منذ عقود مضت وإلى يومنا هذا  واحدة من المراكز الرائدة في العالم للأعمال التجارية والأزياء والترفيه و الفن والثقافة. يرتبط اسمها بالمعالم العالمية الشهيرة والمتاحف كما تضم افضل فنادق فرنسا
+
+  </h1>
+  <h1>
+    في هذا الموضوع نتحدث عن معالم السياحة في فرنسا باريس واماكن الجذب فيها لنقدم لكم قائمة تضم افضل المناطق السياحية في فرنسا
+  </h1>
+  <!-- flip-card-container -->
+<div class="flip-card-container" style="--hue: 220">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+        <img style="width: 23cm;" src="paris1.jpg" alt="Brohm Lake">
+          <figcaption>باريس</figcaption>
+        </figure>
+  
+        <ul>
+          <li>برج ايفل</li>
+          <li>شارع الشانزليزيه</li>
+          <li>قوس النصر</li>
+          <li>ميدان الكونكورد</li>
+          <li> الحي اللاتيني</li>
+          <li> باريس ديزني لاند</li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 23cm;" src="paris1.jpg" alt="Brohm Lake">
+        </figure>
+  
+        <button class="grow">
+            <a href="https://www.urtrips.com/france/tourism-in-paris/"> <h2> اضغط هنا
+            </h2></a>
+  
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- /flip-card-container -->
+  
+  <!-- flip-card-container -->
+  <div class="flip-card-container" style="--hue: 170">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 24cm;" src="stras2.jpg" alt="Brohm Lake">
+          <figcaption> ستراسبورغ</figcaption>
+        </figure>
+  
+        <ul>
+          <li>ساحة غوتنبيرغ</li>
+          <li>حدائق أورانجي</li>
+          <li>متحف ستراسبورغ التاريخي </li>
+          <li> متحف الشوكولاته</li>
+          <li>متحف الفن الحديث </li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 24cm;" src="stras2.jpg" alt="Brohm Lake">
+        </figure>
+  
+        <button class="grow">
+            <a href="https://www.urtrips.com/france/tourism-in-strasbourg/"> <h2> اضغط هنا
+            </h2></a>
+  
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- /flip-card-container -->
+  
+  <!-- flip-card-container -->
+  <div class="flip-card-container" style="--hue: 350">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 24cm;" src="cha3.jpg" alt="Brohm Lake">
+          <figcaption> شامونيه</figcaption>
+        </figure>
+  
+        <ul>
+          <li> منتزه شامونيه الترفيهي</li>
+          <li>قصة دي ميدي </li>
+          <li>فاليه بلانش </li>
+          <li>قمة مونت بلانك</li>
+          <li>متحف الألب</li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <!-- only if the image is necessary -->
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 24cm;" src="cha3.jpg" alt="Brohm Lake">
+        </figure>
+  
+        <button class="grow">
+            <a href="https://www.urtrips.com/france/tourism-in-chamonix/"> <h2> اضغط هنا
+            </h2></a>
+  
+        <!-- can add svg here and remove these eight spans -->
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- /flip-card-container -->
+  
+  <a href="https://abubakersaeed.netlify.app/designs/d4-flip-card" class="abs-site-link" rel="nofollow noreferrer" target="_blank">abs/designs/d4-flip-card</a>
+</body>
+<!-- flip-card-container -->
+<div class="flip-card-container" style="--hue: 220">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 23cm;" src="nice-attractions-1.jpg" alt="Brohm Lake">
+          <figcaption> نيس</figcaption>
+        </figure>
+  
+        <ul>
+          <li>منتزه فونيكس</li>
+          <li>المدينة القديمة في نيس</li>
+          <li>منتزه انغليس</li>
+          <li>سوق زهره كور ساليا</li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 23cm;" src="nice-attractions-1.jpg" alt="Brohm Lake">
+        </figure>
+  
+        
+        <button class="grow">
+            <a href="https://www.urtrips.com/france/tourism-in-nice/"> <h2> اضغط هنا
+            </h2></a>
+  
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- /flip-card-container -->
+  
+  <!-- flip-card-container -->
+  <div class="flip-card-container" style="--hue: 170">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 24cm;" src="annecy4.jpg" alt="Brohm Lake">
+          <figcaption>آنسي</figcaption>
+        </figure>
+  
+        <ul>
+          <li>بحيرة انسي</li>
+          <li>نهر لو تيو</li>
+          <li>حدائق أوروبا</li>
+          <li> جبل سيمنوز</li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 24cm;" src="annecy4.jpg" alt="Brohm Lake">
+        </figure>
+        <button class="grow">
+            <a href="https://www.urtrips.com/france/tourism-in-annecy/"> <h2> اضغط هنا
+            </h2></a>
+  
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- /flip-card-container -->
+  
+  <!-- flip-card-container -->
+  <div class="flip-card-container" style="--hue: 350">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 25cm;" src="canne.jpg" alt="Brohm Lake">
+          <figcaption>كان</figcaption>
+        </figure>
+  
+        <ul>
+          <li> مدينة كان القديمة</li>
+          <li>ميناء كان لليخوت</li>
+          <li> منطقة لاكروازيت</li>
+          <li>شاطئ مارتيناز </li>
+          <li>متحف لامير كان فرنسا</li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <!-- only if the image is necessary -->
+        <figure>
+          <div class="img-bg"></div>
+          <img style="width: 25cm;" src="canne.jpg" alt="Brohm Lake">
+        </figure>
+  
+        <button class="grow">
+            <a href="https://www.urtrips.com/france/tourism-in-cannes/"> <h2> اضغط هنا
+            </h2></a>
+  
+        <!-- can add svg here and remove these eight spans -->
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+    
+
+  
+ 
+</body>
+</html>

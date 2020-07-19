@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia </title>
+    <style>
+        .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.list li {
+  flex: 1;
+}
+.list li a {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 1rem;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.list li a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+@media (hover: hover) {
+  .list li a span {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .list:hover span {
+    transform: translateY(0);
+  }
+  .list li:nth-child(1) span {
+    transition-delay: 0.0s;
+  }
+  .list li:nth-child(2) span {
+    transition-delay: 0.05s;
+  }
+  .list li:nth-child(3) span {
+    transition-delay: 0.1s;
+  }
+  .list li:nth-child(4) span {
+    transition-delay: 0.15s;
+  }
+  .list li:nth-child(5) span {
+    transition-delay: 0.2s;
+  }
+  .list li:nth-child(6) span {
+    transition-delay: 0.25s;
+  }
+}
+
+
+
+
+
+
+
+.list li:nth-child(1) {
+  background: #edc4b3;
+}
+.list li:nth-child(2) {
+  background: #e6b8a2;
+}
+.list li:nth-child(3) {
+  background: #dd8d58;
+}
+.list li:nth-child(4) {
+  background: #6bd3ab;
+}
+.list li:nth-child(5) {
+  background: #59b2e6;
+}
+.list li:nth-child(6)  {
+  background: #ffffff;
+}
+
+
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li><a href="main.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الصفحة الرئيسية</span></a></li>
+        <li><a href="list1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الأوروبية</span></a></li>
+        <li><a href="list2.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الآسيوية</span></a></li>
+        <li><a href="signin1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>تسجيل الدخول</span></a></li>
+        <li><a href="about.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> من نحن ؟</span></a></li>
+        <li><a href="contact.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> تواصل معنا</span></a></li>
+      </ul>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia
+    </title>
+    <style>
+      .grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.4); 
+}  
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#9875c7;
+  overflow-x: hidden;
+  border: 0.2cm solid rgb(133, 230, 7); 
+  
+}
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9652a3c9 10%, #ff4800dc 100%);
+	
+}
+h1 {
+text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(15, 14, 14);
+float: right;
+margin-right: 0.2cm;
+margin-left: 5cm;
+font-size: 0.6cm;
+}
+h2 {
+
+font-family: 'Cairo', sans-serif;
+color:black;
+text-align: center;
+}
+
+h3
+{
+    font-family: 'Cairo', sans-serif;
+color:rgb(33, 38, 49);
+text-align: center;  
+margin-top: 1cm;
+margin-left: 5cm;
+font-size: 1.6cm;
+display: block;
+
+}
+h4 {
+text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(15, 14, 14);
+float: right;
+font-size: large;
+margin-left: 15cm;
+background-color:rgb(197, 70, 70);
+margin-right: 13cm;
+margin-top: 1.3cm;
+border: 0.2cm solid black; 
+}
+
+
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: rgb(15, 14, 14);
+	background: #fff;
+	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 3cm;
+	box-shadow: 0 3px 20px 0 #0000003b;
+
+}
+
+a {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+a:hover {
+  background-position: 0 100%;
+}
+
+
+body {
+    background-image: linear-gradient(120deg, #6b62bd 0%, #d32ce2 100%);
+  
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <button class="grow">
+
+                <a href="francesummer.html"> <h2>الصيف
+                </h2></a>
+   </button>
+   <button class="grow">
+        <a href="francewinter.html"> <h2>الشتاء
+        </h2></a>
+
+        <button class="grow">
+            <a href="francespring.html"> <h2>الربيع
+            </h2></a>    
+            <button class="grow">
+                <a href="franceautumn.html"> <h2>الخريف
+                </h2></a>   
+       </button>
+         <button style="background-color: chartreuse;" class="grow">
+<a href="franceweather.html"> <h2>مدار السنة
+</h2></a>
+        
+        
+           </button>
+        
+        
+            </div>
+    </header>
+    <div class="sidenav" style="height: 40%;align-items: center; align-content: center;margin-top: 6cm;">
+        <a href="france.html"><img class="grow" style="width: 6ex; margin-top: 2ex; margin-left: 7ex;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt=""></a>  
+        <a href="list1.html"><img class="grow" style="width: 6ex; margin-top: 2ex;margin-left: 7ex;" src="IMG_0575_Picsart.png" alt=""></a>  
+        <a href="list2.html"><img class="grow" style="width: 6ex; margin-top: 2ex;margin-left: 7ex;" src="IMG_0574_Picsart.png" alt=""></a>
+    </div>
+  <h3>
+      
+  </h3>
+
+
+
+
+
+      <h3>
+          يناير
+      </h3>
+<h1>
+    يناير هو أبرد شهر في  فرنسا. يظل متوسط ​​درجات الحرارة في البلاد ثابتًا عند 5 درجات مئوية خلاله، مع عدم وجود أي تباين تقريبًا وتهطل الأمطار والثلوج بغزارة خلال شهر يناير.
+</h1>
+
+<h3>
+     فبراير
+</h3>
+<h1>
+    فبراير وقت رائع لزيارة فرنسا، عندما تكون البلاد في منتصف فصل الشتاء. حيث يزداد متوسط ​​درجة الحرارة في العاصمة بشكل طفيف من 4 درجات مئوية في 1 فبراير إلى 5.5 درجة مئوية بحلول 28 فبراير.
+    </h1>
+    
+<h3>
+     مارس 
+</h3>
+<h1>
+    يبدأ الطقس في فرنسا بالتحسن ببطء في شهر مارس، عندما يكون موسم الربيع علي وشك الوصول. في هذا الوقت من العام، يزداد متوسط ​​درجة الحرارة للبلاد من حوالي 5.5 درجة مئوية في بداية الشهر، حيث ترتفع إلى 9 درجة مئوية في الأيام القليلة الأخيرة.
+</h1>
+<h3>
+    أبريل
+</h3>
+<h1>
+    مع موسم الربيع الجاري، يستمر المناخ في فرنسا بالتحسن في شهر أبريل، عند إذ تتمتع البلاد بدرجات حرارة أكثر دفئًا واحتمالية هطول الأمطار تقل كل يوم.
+
+خلال فبراير يرتفع متوسط ​​درجة الحرارة من 9 درجة مئوية في 1 أبريل إلى 12.5 درجة مئوية بحلول 30 أبريل.
+</h1>
+<h3>
+    مايو
+</h3>
+<h1>
+    يتحسن الطقس في فرنسا بشكل كبير في شهر مايو، عندما يكون موسم الصيف على وشك الوصول. في هذا الوقت من العام، يزداد متوسط ​​درجة الحرارة للبلاد من 12.5 درجة مئوية في 1 مايو وصولًا إلى 16 درجة مئوية بحلول 31 مايو.
+</h1>
+<h3>
+    يونيو
+</h3>
+<h1>
+    يونيو هو وقت رائع لزيارة فرنسا، عندما يكون الطقس دافئًا وجافًا ومشمسًا. يرتفع متوسط ​​درجة الحرارة في هذا الوقت من العام من 16 درجة مئوية في 1 يونيو إلى 18.5 درجة مئوية بحلول 30 يونيو.
+</h1>
+<h3>
+    يوليو
+</h3>
+<h1>
+    يعتبر شهر يوليو أحد أفضل شهور السنة لزيارة  فرنسا، عندما يكون الطقس جافًا ومشمسًا ودافئًا في الغالب. يبدأ متوسط ​​درجات الحرارة لهذا الوقت من العام عند 18.5 درجة مئوية في 1 يوليو، ويزيد تدريجيًا حتى يصل إلى 20 درجة مئوية بحلول 30 يوليو.
+</h1>
+<h3>
+أغسطس
+</h3>
+<h1>
+    يعتبر شهر أغسطس شهرًا مشهورًا جدًا لزيارة فرنسا، عندما تحل أشعة شمس الصيف ودرجات الحرارة المعتدلة.
+
+    في هذا الوقت من العام، يبدأ متوسط ​​درجات الحرارة عند حوالي 20 درجة مئوية في بداية الشهر وينخفض ​​إلى 18 درجة مئوية في الأيام القليلة الماضية.
+</h1>
+<h3>
+سبتمر
+</h3>
+<h1>
+    يبدأ الطقس في البرودة في فرنسا في سبتمبر، عندما يكون موسم الخريف علي وشك الوصول. يبدأ متوسط ​​درجات الحرارة لهذا الشهر عند 17.5 درجة مئوية في الأول من سبتمبر، وينخفض ​​إلى 14.5 درجة مئوية بحلول 30 سبتمبر.
+</h1>
+<h3>
+أكتوبر
+</h3>
+<h1>
+    أكتوبر هو وقت رائع جدًا من السنة لزيارة فرنسا، عندما يكون الطقس باردًا ورطبًا. في هذا الوقت من العام، يبدأ متوسط ​​درجات الحرارة عند 14 درجة مئوية في الأول من أكتوبر، وينخفض ​​إلى 9.5 درجة مئوية في 31 أكتوبر.
+</h1>
+<h3>
+    نوفمبر
+</h3>
+<h1>
+    نوفمبر هو وقت بارد جدًا لزيارة باريس، فرنسا، حيث يكون الطقس رطبًا ودرجات الحرارة منخفضة.
+
+    خلال هذا الشهر، يبدأ متوسط ​​درجات الحرارة عند 9.5 درجة مئوية في الأول من نوفمبر وينخفض ​​إلى 5.5 درجة مئوية بحلول 30 نوفمبر.
+</h1>
+<h3>
+  ديسمبر  
+</h3>
+<h1>
+    يعتبر شهر ديسمبر أحد أكثر الشهور برودة في باريس بفرنسا، حيث يكون الطقس باردًا ورطبًا وهناك فرص قليلة للثلج.
+
+خلال هذا الشهر، يبدأ متوسط ​​درجات الحرارة عند 5.5 درجة مئوية في الأول من ديسمبر وينخفض ​​إلى 4 درجات مئوية بحلول 31 ديسمبر.
+</h1>
+
+
+
+
+
+
+
+
+<a style="margin-left: 5cm;" href="francekw.html"><img class="grow" style="width: 7ex; " src="back.png" alt=""></a>
+    <img src="seasons-png-9.png" alt="" srcset="">
+</body>
+</html>

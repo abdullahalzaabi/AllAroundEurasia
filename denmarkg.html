@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia
+    <style>
+        .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.list li {
+  flex: 1;
+}
+.list li a {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 1rem;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  font-size: 40px;
+}
+.list li a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+@media (hover: hover) {
+  .list li a span {
+    transform: translateY(100px);
+    transition: 0.2s;
+  }
+  .list:hover span {
+    transform: translateY(0);
+  }
+  .list li:nth-child(1) span {
+    transition-delay: 0.0s;
+  }
+  .list li:nth-child(2) span {
+    transition-delay: 0.05s;
+  }
+  .list li:nth-child(3) span {
+    transition-delay: 0.1s;
+  }
+  .list li:nth-child(4) span {
+    transition-delay: 0.15s;
+  }
+  .list li:nth-child(5) span {
+    transition-delay: 0.2s;
+  }
+  .list li:nth-child(6) span {
+    transition-delay: 0.25s;
+  }
+}
+
+
+
+
+
+
+
+.list li:nth-child(1) {
+  background: #edc4b3;
+}
+.list li:nth-child(2) {
+  background: #e6b8a2;
+}
+.list li:nth-child(3) {
+  background: #dd8d58;
+}
+.list li:nth-child(4) {
+  background: #6bd3ab;
+}
+.list li:nth-child(5) {
+  background: #59b2e6;
+}
+.list li:nth-child(6)  {
+  background: #ffffff;
+}
+
+
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li><a href="main.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الصفحة الرئيسية</span></a></li>
+        <li><a href="list1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الأوروبية</span></a></li>
+        <li><a href="list2.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>الدول الآسيوية</span></a></li>
+        <li><a href="signin1.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span>تسجيل الدخول</span></a></li>
+        <li><a href="about.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> من نحن ؟</span></a></li>
+        <li><a href="contact.html"><img style="width: 2cm;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt="" srcset=""> <span> تواصل معنا</span></a></li>
+      </ul>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logofish.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <title>AllAroundEurasia
+    </title>
+    <style>
+      .grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.4); 
+}  
+body {
+  height: 100vh;
+  background-color: white;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#c243a6f6;
+  overflow-x: hidden;
+  border: 0.2cm solid rgb(7, 230, 144); 
+  box-shadow: 5px 5px rgb(88, 88, 235), 10px 10px rgb(125, 178, 248), 15px 15px rgb(214, 144, 39);
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  margin-left: 4cm;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(216, 214, 214, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ 
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+ 
+}
+
+.card-2 {
+  box-shadow: 0 13px 40px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  animation: ease-in;
+}
+
+.card-2:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+ 
+}
+.card-3 {
+  box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  animation: ease-in;
+}
+.card-3:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;}
+.card-4 {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+}
+.card-4:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in; }
+.card-5 {
+  box-shadow: 0 19px 40px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  animation: ease-in;
+}
+.card-5:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation: ease-in;
+}
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9652a3c9 10%, #ff4800dc 100%);
+	
+}
+h1 {
+text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(15, 14, 14);
+float: right;
+font-size: large;
+margin-left: 5cm;
+}
+h2 {
+
+font-family: 'Cairo', sans-serif;
+color:black;
+text-align: center;
+}
+
+h3
+{
+    font-family: 'Cairo', sans-serif;
+color:rgb(33, 38, 49);
+text-align: center;  
+margin-top: 1cm;
+margin-left: 5cm;
+font-size: 1.6cm;
+display: block;
+
+}
+h4 {
+text-align:right;
+font-family: 'Cairo', sans-serif;
+color:rgb(15, 14, 14);
+float: right;
+font-size: large;
+margin-left: 15cm;
+background-color:rgb(197, 70, 70);
+margin-right: 13cm;
+margin-top: 1.3cm;
+border: 0.2cm solid black; 
+}
+
+
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: rgb(15, 14, 14);
+	background: #fff;
+	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 3cm;
+	box-shadow: 0 3px 20px 0 #0000003b;
+
+}
+
+a {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+a:hover {
+  background-position: 0 100%;
+}
+
+
+body {
+  background-image: linear-gradient(120deg, #974cad 0%, #d46012 100%);
+  font-family: "Josefin Slab";
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 1vw auto;
+  position: relative;
+  text-align: center;
+  width: 94vw;
+}
+
+.product {
+  flex: auto;
+  font-size: 1.5rem;
+  margin: 0 1vw calc(1vw + 50px) 1vw;
+  min-width: calc(33% - 2vw);
+  position: relative;
+}
+
+.product:before {
+  content: "";
+  float: left;
+  padding-top: 100%;
+}
+
+.content {
+  background: white;
+  border-radius: 30%;
+  height: 84%;
+  margin: 8%;
+  position: absolute;
+  width: 84%;
+  vertical-align: middle;
+  z-index: 5000;
+}
+
+.product:hover .effect-1,
+.product:hover .effect-2 {
+  display: block;
+}
+
+.effect-1,
+.effect-2 {
+  border-radius: 30%;
+  display: none;
+  mix-blend-mode: multiply;
+  height: 84%;
+  opacity: 1;
+  position: absolute;
+  width: 84%;
+  z-index: 3000;
+}
+
+.effect-1 {
+  animation: rotate 1.8s linear infinite;
+  background: cyan;
+}
+
+.effect-2 {
+  animation: rotate 1.2s linear reverse infinite;
+  background: #e7a9ff;
+}
+
+@keyframes rotate {
+  0% {
+    top: 0;
+    left: 8%;
+  }
+  25% {
+    top: 8%;
+    left: 0%;
+  }
+  50% {
+    top: 16%;
+    left: 8%;
+  }
+  75% {
+    top: 8%;
+    left: 16%;
+  }
+  100% {
+    top: 0;
+    left: 8%;
+  }
+}
+
+.title {
+  position: relative;
+  top: calc(100% + 16px);
+  width: 0em;
+}
+
+.title span {
+  display: block;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  margin-top: 8px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  display: block;
+}
+
+.exercise {
+  background-image: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  border-radius: 5px;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
+
+.sleep {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 50%;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
+
+.meditation {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+  border-radius: 5px;
+  height: 40%;
+  margin: 30%;
+  transform: rotate(45deg);
+  width: 40%;
+}
+.mySlides {display:none;}
+
+.twitter {
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+  border-radius: 14px;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 28px;
+  padding: 0 12px;
+  position: fixed;
+  right: 20px;
+  z-index: 5000;
+}
+.boxho {
+    background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
+.boxho:hover {opacity: 1}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <button style="background-color: chartreuse;" class="grow">
+
+                <a href="main.html"> <h2>الصفحة الرئيسية
+                </h2></a>
+   </button>
+   <button class="grow">
+
+   
+    
+        <a href="denmarkg1.html"> <h2>التاريخ
+        </h2></a>
+                
+       </button>
+       <button class="grow">
+<a href="https://www.rightmove.co.uk/overseas-property/in-Denmark.html"> <h2>عقارات
+</h2></a>
+        
+        
+           </button>
+        
+        
+            </div>
+            <!-- change -->
+            <div class="w3-content w3-display-container" style="margin-left: 1.5cm; margin-top: 2.5cm;">
+                <img class="mySlides" src="img1.png" style="width: 50%; margin-left: 11cm;border:3px solid black;height:400px ; ">
+                <img class="mySlides" src="img2.jpg" style="width: 50%; margin-left: 11cm;border:3px solid black;height: 400px; ">
+                <img class="mySlides" src="img3.jpg" style="width:50%; margin-left: 11cm;border:3px solid black;height: 400px; ">
+                <img class="mySlides" src="denmark flag.jpg" style="width: 50%;margin-left: 11cm;border:3px solid black;height: 400px; ">
+              <!-- change -->
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+    </header>
+    <div class="sidenav" style="height: 40%;align-items: center; align-content: center;margin-top: 6cm;">
+      <a href="denmark.html"><img class="grow" style="width: 6ex; margin-top: 2ex; margin-left: 7ex;" src="8B392412-A547-4716-8984-ADAE0FB45D91_Picsart.png" alt=""></a>  
+      <a href="list1.html"><img class="grow" style="width: 6ex; margin-top: 2ex;margin-left: 7ex;" src="IMG_0575_Picsart.png" alt=""></a>  
+      <a href="list2.html"><img class="grow" style="width: 6ex; margin-top: 2ex;margin-left: 7ex;" src="IMG_0574_Picsart.png" alt=""></a>
+  </div>
+      
+    
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+</body>
+</html>
