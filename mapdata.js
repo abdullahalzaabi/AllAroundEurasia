@@ -607,14 +607,14 @@ var simplemaps_worldmap_mapdata={
   },
   locations: {
     "0": {
-      name: "switzerland",
-      lat: 46.81,
-      lng: 8.2275
+      name: "Kuwait",
+      lat: 28.30,
+      lng: 46.48
     },
     "1": {
-      name: "Sweden",
-      lat: 65.1282,
-      lng: 18.6435
+      name: "France",
+      lat: 44.52,
+      lng: 2.8
     },
     "2": {
       name: "Denmark",
@@ -622,14 +622,10 @@ var simplemaps_worldmap_mapdata={
       lng: 9.5018
     },
     "3": {
-      name: "Germany",
-      lat: 51.1657,
-      lng: 10.4515
+     
     },
     "4": {
-      name: "Ireland",
-      lat:53.1424,
-      lng: -7.6921
+    
     }
   },
   
